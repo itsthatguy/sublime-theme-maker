@@ -8,6 +8,9 @@ white: &WHITE [255, 255, 255, 200]
 
 primaryDark: &PRIMARY_DARK [65, 69, 78, 255]
 
+# GENERAL
+__iconPath: "Theme - itg/assets/"
+
 # TABS
 __tabsetBackground: *PRIMARY_DARK
 __tabSettings:

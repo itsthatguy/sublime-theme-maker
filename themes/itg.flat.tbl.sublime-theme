@@ -836,38 +836,38 @@
   // Regex search button
   {
     "class": "icon_regex",
-    "layer0.texture": "icon-regex-off.png",
+    "layer0.texture": "Theme - itg/assets/icon-regex-off.png",
     "layer0.opacity": 1.0,
     "content_margin": [8, 8]
   },
   {
     "class": "icon_regex",
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-    "layer0.texture": "icon-regex-on.png"
+    "layer0.texture": "Theme - itg/assets/icon-regex-on.png"
   },
   // Case sensitive search button
   {
     "class": "icon_case",
-    "layer0.texture": "icon-case-off.png",
+    "layer0.texture": "Theme - itg/assets/icon-case-off.png",
     "layer0.opacity": 1.0,
     "content_margin": [8, 8]
   },
   {
     "class": "icon_case",
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-    "layer0.texture": "icon-case-on.png"
+    "layer0.texture": "Theme - itg/assets/icon-case-on.png"
   },
   // Match whole word search button
   {
     "class": "icon_whole_word",
-    "layer0.texture": "icon-word-off.png",
+    "layer0.texture": "Theme - itg/assets/icon-word-off.png",
     "layer0.opacity": 1.0,
     "content_margin": [8, 8]
   },
   {
     "class": "icon_whole_word",
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-    "layer0.texture": "icon-word-on.png"
+    "layer0.texture": "Theme - itg/assets/icon-word-on.png"
   },
 
 //
@@ -877,26 +877,26 @@
   // Show search context button
   {
     "class": "icon_context",
-    "layer0.texture": "icon-context-off.png",
+    "layer0.texture": "Theme - itg/assets/icon-context-off.png",
     "layer0.opacity": 1.0,
     "content_margin": [8, 8]
   },
   {
     "class": "icon_context",
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-    "layer0.texture": "icon-context-on.png"
+    "layer0.texture": "Theme - itg/assets/icon-context-on.png"
   },
   // Use search buffer
   {
     "class": "icon_use_buffer",
-    "layer0.texture": "icon-buffer-off.png",
+    "layer0.texture": "Theme - itg/assets/icon-buffer-off.png",
     "layer0.opacity": 1.0,
     "content_margin": [8, 8]
   },
   {
     "class": "icon_use_buffer",
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-    "layer0.texture": "icon-buffer-on.png"
+    "layer0.texture": "Theme - itg/assets/icon-buffer-on.png"
   },
 
 //
@@ -906,38 +906,38 @@
   // Reverse search direction button
   {
     "class": "icon_reverse",
-    "layer0.texture": "icon-reverse-off.png",
+    "layer0.texture": "Theme - itg/assets/icon-reverse-off.png",
     "layer0.opacity": 1.0,
     "content_margin": [8, 8]
   },
   {
     "class": "icon_reverse",
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-    "layer0.texture": "icon-reverse-on.png"
+    "layer0.texture": "Theme - itg/assets/icon-reverse-on.png"
   },
   // Search wrap button
   {
     "class": "icon_wrap",
-    "layer0.texture": "icon-wrap-off.png",
+    "layer0.texture": "Theme - itg/assets/icon-wrap-off.png",
     "layer0.opacity": 1.0,
     "content_margin": [8, 8]
   },
   {
     "class": "icon_wrap",
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-    "layer0.texture": "icon-wrap-on.png"
+    "layer0.texture": "Theme - itg/assets/icon-wrap-on.png"
   },
   // Search in selection button
   {
     "class": "icon_in_selection",
-    "layer0.texture": "icon-selection-off.png",
+    "layer0.texture": "Theme - itg/assets/icon-selection-off.png",
     "layer0.opacity": 1.0,
     "content_margin": [8, 8]
   },
   {
     "class": "icon_in_selection",
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-    "layer0.texture": "icon-selection-on.png"
+    "layer0.texture": "Theme - itg/assets/icon-selection-on.png"
   },
 
 //
@@ -947,14 +947,14 @@
   // Preserve case button
   {
     "class": "icon_preserve_case",
-    "layer0.texture": "icon-preserve-off.png",
+    "layer0.texture": "Theme - itg/assets/icon-preserve-off.png",
     "layer0.opacity": 1.0,
     "content_margin": [8, 8]
   },
   {
     "class": "icon_preserve_case",
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-    "layer0.texture": "icon-preserve-on.png"
+    "layer0.texture": "Theme - itg/assets/icon-preserve-on.png"
   },
 //
 // BOTTOM PANEL ICONS - GROUP 4
@@ -963,14 +963,14 @@
   // Highlight results button
   {
     "class": "icon_highlight",
-    "layer0.texture": "icon-highlight-off.png",
+    "layer0.texture": "Theme - itg/assets/icon-highlight-off.png",
     "layer0.opacity": 1.0,
     "content_margin": [8, 8]
   },
   {
     "class": "icon_highlight",
     "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-    "layer0.texture": "icon-highlight-on.png",
+    "layer0.texture": "Theme - itg/assets/icon-highlight-on.png",
   }
 
 ]
