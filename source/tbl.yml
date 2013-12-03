@@ -52,6 +52,27 @@ __sidebarIcons:
     __open: "group-open.png"
     __closed: "group-closed.png"
 
+# PANEL
+__panelBufferIconOn: "icon-buffer-on.png"
+__panelBufferIconOff: "icon-buffer-off.png"
+__panelCaseIconOn: "icon-case-on.png"
+__panelCaseIconOff: "icon-case-off.png"
+__panelContextIconOn: "icon-context-on.png"
+__panelContextIconOff: "icon-context-off.png"
+__panelHighlightIconOn: "icon-highlight-on.png"
+__panelHighlightIconOff: "icon-highlight-off.png"
+__panelPreserveIconOn: "icon-preserve-on.png"
+__panelPreserveIconOff: "icon-preserve-off.png"
+__panelRegexIconOn:  "icon-regex-on.png"
+__panelRegexIconOff:  "icon-regex-off.png"
+__panelReverseIconOn: "icon-reverse-on.png"
+__panelReverseIconOff: "icon-reverse-off.png"
+__panelSelectionIconOn: "icon-selection-on.png"
+__panelSelectionIconOff: "icon-selection-off.png"
+__panelWordIconOn: "icon-word-on.png"
+__panelWordIconOff: "icon-word-off.png"
+__panelWrapIconOn: "icon-wrap-on.png"
+__panelWrapIconOff: "icon-wrap-off.png"
 
 # MINIMAP
 __minimapBackground: [65, 69, 78, 165]
