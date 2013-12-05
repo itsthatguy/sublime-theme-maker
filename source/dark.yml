@@ -1,9 +1,13 @@
 ---
 # GENERIC COLORS
-red: &RED [243, 86, 86, 255]
+red: &RED [243, 86, 86]
+lightRed: &LIGHT_RED [252, 174, 174]
 dark: &DARK [91, 84, 81, 255]
 white: &WHITE [255, 255, 255, 200]
-primaryDark: &PRIMARY_DARK [65, 69, 78, 255]
+lightWhite: &LIGHT_WHITE [180, 180, 180]
+primaryDark: &PRIMARY_DARK [65, 69, 78]
+primaryColor: *RED
+lightPrimaryColor: *LIGHT_RED
 
 # GENERAL
 __iconPath: "Theme - itg/assets/dark/"
