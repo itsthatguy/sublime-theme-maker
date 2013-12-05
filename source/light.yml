@@ -1,22 +1,25 @@
 ---
 # GENERIC COLORS
 red: &RED [180, 80, 80, 255]
+lightRed: &LIGHT_RED [190, 168, 168]
 yellow: &YELLOW [254, 209, 0, 255]
 light: &LIGHT [212, 205, 202, 255]
 dark: &DARK [91, 84, 81, 255]
 white: &WHITE [255, 255, 255, 200]
-
-primaryDark: &PRIMARY_DARK [65, 69, 78, 255]
+lightWhite: &LIGHT_WHITE [180, 180, 180]
+primaryDark: &PRIMARY_DARK [65, 69, 78]
+primaryColor: *RED
+lightPrimaryColor: *LIGHT_RED
 
 # GENERAL
-__iconPath: "Theme - itg/assets/"
+__iconPath: "Theme - itg/assets/dark/"
 
 # TABS
 __tabsetBackground: [178, 169, 165, 250]
 __tabSettings:
   __inactive:
     __textColor: *DARK
-    __backgroundColor: [255,255,255, 60]
+    __backgroundColor: [255, 255, 255, 60]
     __textBold: false
   __active:
     __textColor: *DARK
@@ -77,5 +80,5 @@ __panelWrapIconOn: "icon-wrap-on.png"
 __panelWrapIconOff: "icon-wrap-off.png"
 
 # MINIMAP
-__minimapBackground: *WHITE
+__minimapBackground: [212, 205, 202, 60]
 ---
