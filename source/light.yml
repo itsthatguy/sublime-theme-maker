@@ -1,84 +1,139 @@
 ---
 # GENERIC COLORS
-red: &RED [180, 80, 80, 255]
-lightRed: &LIGHT_RED [190, 168, 168]
+# red: [180, 80, 80, 255]
+# lightRed: [190, 168, 168]
 yellow: &YELLOW [254, 209, 0, 255]
+darkYellow: &DARK_YELLOW [220,150,0]
 light: &LIGHT [212, 205, 202, 255]
 dark: &DARK [91, 84, 81, 255]
 white: &WHITE [255, 255, 255, 200]
 lightWhite: &LIGHT_WHITE [180, 180, 180]
-primaryDark: &PRIMARY_DARK [65, 69, 78]
-primaryColor: *RED
-lightPrimaryColor: *LIGHT_RED
+primaryDark: &PRIMARY_DARK [178, 169, 165, 250]
+secondaryDark: &SECONDARY_DARK [128, 119, 115, 250]
+primaryColor: &PRIMARY_COLOR [180, 80, 80, 255]
+lightPrimaryColor: &LIGHT_PRIMARY_COLOR [190, 168, 168]
 
 # GENERAL
-__iconPath: "Theme - itg/assets/dark/"
+iconPath: "Theme - itg/assets/"
+iconPathGroup: ""
 
 # TABS
-__tabsetBackground: [178, 169, 165, 250]
-__tabSettings:
-  __inactive:
-    __textColor: *DARK
-    __backgroundColor: [255, 255, 255, 60]
-    __textBold: false
-  __active:
-    __textColor: *DARK
-    __backgroundColor: *WHITE
-    __textBold: false
-  __hover:
-    __textColor: *DARK
-    __backgroundColor: [255, 255, 255, 190]
-    __textBold: false
-__tabCloseIconPath: "Theme - itg/assets/"
-__tabCloseIcon: "tab-close.png"
-__tabCloseHoverIcon: "tab-close-hover.png"
+tabsetBackground: *LIGHT
+tabSettings:
+  inactive:
+    textColor: *DARK
+    backgroundColor: *LIGHT
+    textBold: false
+  active:
+    textColor: *DARK
+    backgroundColor: *WHITE
+    textBold: false
+  hover:
+    textColor: *DARK
+    backgroundColor: [255, 255, 255, 190]
+    textBold: false
 
+
+#
 # SIDEBAR
-__sidebarBackground: [212, 205, 202, 255]
-__sidebarSettings:
-  __selected:
-    __background: *RED
-    __text: *WHITE
-    __textHover: *WHITE
-    __folderText: *WHITE
-  __deselected:
-    __background: *LIGHT
-    __text: *DARK
-    __textHover: *DARK
-    __folderText: *DARK
-__sidebarHeadingTextColor: *DARK
+sidebarBackground: *LIGHT
+sidebarSettings:
+  headingTextColor: *DARK
+  hover:
+    backgroundColor: [0,0,0,30]
+    textColor: *WHITE
+  selected:
+    backgroundColor: *PRIMARY_COLOR
+    textColor: *WHITE
+    textHoverColor: *WHITE
+    folderTextColor: *WHITE
+  deselected:
+    backgroundColor: *LIGHT
+    textColor: *DARK
+    textHoverColor: *DARK
+    folderTextColor: *DARK
 
-__sidebarIconsPath: "Theme - itg/assets/"
-__sidebarIcons:
-  __selected:
-    __open: "group-open-selected.png"
-    __closed: "group-closed-selected.png"
-  __deselected:
-    __open: "group-open.png"
-    __closed: "group-closed.png"
 
+#
+# CLOSE ICONS
+closeIconSettings:
+  # TABS
+  tabs:
+    inactive:
+      color: *DARK
+      hoverColor: *DARK
+      dirtyColor: *DARK_YELLOW
+      defaultOpacity: 0.3
+      hoverOpacity: 1.0
+    active:
+      color: *DARK
+      hoverColor: *PRIMARY_COLOR
+      dirtyColor: *DARK_YELLOW
+      defaultOpacity: 1.0
+      hoverOpacity: 1.0
+    hover:
+      hoverColor: *PRIMARY_COLOR
+      dirtyColor: *DARK_YELLOW
+      hoverOpacity: 1.0
+
+  # SIDEBAR
+  sidebar:
+    selected:
+      color: *WHITE
+      hoverColor: *WHITE
+      dirtyColor: *YELLOW
+      defaultOpacity: 0.6
+      hoverOpacity: 1.0
+    deselected:
+      color: *DARK
+      hoverColor: *WHITE
+      dirtyColor: *DARK_YELLOW
+      defaultOpacity: 0.0
+      hoverOpacity: 1.0
+    hover:
+      color: *DARK
+      hoverColor: *PRIMARY_COLOR
+      defaultOpacity: 0.4
+      hoverOpacity: 1.0
+
+
+#
 # PANEL
-__panelBufferIconOn: "icon-buffer-on.png"
-__panelBufferIconOff: "icon-buffer-off.png"
-__panelCaseIconOn: "icon-case-on.png"
-__panelCaseIconOff: "icon-case-off.png"
-__panelContextIconOn: "icon-context-on.png"
-__panelContextIconOff: "icon-context-off.png"
-__panelHighlightIconOn: "icon-highlight-on.png"
-__panelHighlightIconOff: "icon-highlight-off.png"
-__panelPreserveIconOn: "icon-preserve-on.png"
-__panelPreserveIconOff: "icon-preserve-off.png"
-__panelRegexIconOn:  "icon-regex-on.png"
-__panelRegexIconOff:  "icon-regex-off.png"
-__panelReverseIconOn: "icon-reverse-on.png"
-__panelReverseIconOff: "icon-reverse-off.png"
-__panelSelectionIconOn: "icon-selection-on.png"
-__panelSelectionIconOff: "icon-selection-off.png"
-__panelWordIconOn: "icon-word-on.png"
-__panelWordIconOff: "icon-word-off.png"
-__panelWrapIconOn: "icon-wrap-on.png"
-__panelWrapIconOff: "icon-wrap-off.png"
+panelBackground: *LIGHT
+panelSelectedBackground: *PRIMARY_COLOR
+panelTextColor: *SECONDARY_DARK
+panelMatchTextColor: *DARK
+panelSelectedTextColor: *LIGHT
+panelSelectedMatchTextColor: *WHITE
 
+
+#
+# ICONS
+icons:
+  sidebarGroupOpen: "group-open.png"
+  sidebarGroupClosed: "group-closed.png"
+  closeIcon: "close.png"
+  dirtyIcon: "file-dirty.png"
+  panelBufferIcon: "icon-buffer.png"
+  panelCaseIcon: "icon-case.png"
+  panelContextIcon: "icon-context.png"
+  panelHighlightIcon: "icon-highlight.png"
+  panelPreserveIcon: "icon-preserve.png"
+  panelRegexIcon:  "icon-regex.png"
+  panelReverseIcon: "icon-reverse.png"
+  panelSelectedIcon: "icon-selection.png"
+  panelWordIcon: "icon-word.png"
+  panelWrapIcon: "icon-wrap.png"
+
+
+#
+# ICONS
+scrollbars:
+  darkContentColor: *WHITE
+  lightContentColor: *DARK
+
+#
 # MINIMAP
-__minimapBackground: [212, 205, 202, 60]
+minimapBackground: [212, 205, 202, 60]
 ---
+
