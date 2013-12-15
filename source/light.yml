@@ -14,7 +14,7 @@ primaryColor: &PRIMARY_COLOR [180, 80, 80, 255]
 lightPrimaryColor: &LIGHT_PRIMARY_COLOR [190, 168, 168]
 
 # GENERAL
-iconPath: "Theme - itg/assets/"
+iconPath: "Theme - itg.flat/assets/"
 iconPathGroup: ""
 
 # TABS
