@@ -68,7 +68,7 @@
     "fade": false,
     "fg": {{tabSettings.inactive.textColor}},
     "font.bold" : {{tabSettings.inactive.textBold}},
-    "font.size" : 12,
+    "font.size" : 12
   },
 
   // Active Tab
@@ -81,7 +81,7 @@
     "class": "tab_label",
     "parents": [{"class": "tab_control", "attributes": ["selected"]}],
     "fg": {{tabSettings.active.textColor}},
-    "font.bold" : {{tabSettings.active.textBold}},
+    "font.bold" : {{tabSettings.active.textBold}}
   },
 
   // Hover Tab
@@ -109,9 +109,12 @@
     "layer0.opacity": {{closeIconSettings.tabs.inactive.defaultOpacity}},
     "layer0.inner_margin": [0, 0],
     // Tab close hover settings
+    "layer1.texture": "",
+    "layer2.texture": "",
+    "layer3.texture": "",
     "layer1.opacity": 0.0,
     "layer2.opacity": 0.0,
-    "layer3.opacity": 0.0,
+    "layer3.opacity": 0.0
   },
   {
     // Tab button size
@@ -123,27 +126,27 @@
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["hover"]}],
     "layer0.tint": {{closeIconSettings.tabs.inactive.hoverColor}},
-    "layer0.opacity": {{closeIconSettings.tabs.inactive.hoverOpacity}},
+    "layer0.opacity": {{closeIconSettings.tabs.inactive.hoverOpacity}}
   },
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected"]}],
     "layer0.tint": {{closeIconSettings.tabs.active.color}},
-    "layer0.opacity": {{closeIconSettings.tabs.active.defaultOpacity}},
+    "layer0.opacity": {{closeIconSettings.tabs.active.defaultOpacity}}
   },
   {
     "class": "tab_close_button",
     "parents": [{"class": "tab_control", "attributes": ["selected", "hover"]}],
     "layer0.tint": {{closeIconSettings.tabs.active.color}},
-    "layer0.opacity": {{closeIconSettings.tabs.active.hoverOpacity}},
+    "layer0.opacity": {{closeIconSettings.tabs.active.hoverOpacity}}
   },
   {
     // Tab close button hover
     "class": "tab_close_button",
     "attributes": ["hover"],
     "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-    "layer0.tint": {{closeIconSettings.tabs.hover.hoverColor}},
-    // "layer0.opacity": {{closeIconSettings.tabs.hover.hoverOpacity}},
+    "layer0.tint": {{closeIconSettings.tabs.hover.hoverColor}}
+    // "layer0.opacity": {{closeIconSettings.tabs.hover.hoverOpacity}}
   },
   // Tab dirty button
   {
@@ -151,7 +154,7 @@
     "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
     "layer0.texture": "{{iconPath}}{{iconPathGroup}}{{icons.dirtyIcon}}",
     "layer0.tint": {{closeIconSettings.tabs.inactive.dirtyColor}},
-    "layer0.opacity": 1.0,
+    "layer0.opacity": 1.0
   },
 
   // Tab dirty button selected hover
@@ -160,7 +163,7 @@
     "parents": [{"class": "tab_control", "attributes": ["dirty", "selected"]}],
     "layer0.texture": "{{iconPath}}{{iconPathGroup}}{{icons.dirtyIcon}}",
     "layer0.tint": {{closeIconSettings.tabs.active.dirtyColor}},
-    "layer0.opacity": 1.0,
+    "layer0.opacity": 1.0
   },
   // Tab dirty button hover
   {
@@ -168,7 +171,7 @@
     "parents": [{"class": "tab_control", "attributes": ["dirty", "hover"]}],
     "layer0.texture": "{{iconPath}}{{iconPathGroup}}{{icons.dirtyIcon}}",
     "layer0.tint": {{closeIconSettings.tabs.hover.dirtyColor}},
-    "layer0.opacity": 1.0,
+    "layer0.opacity": 1.0
   },
   {
     // Tab dirty icon hover
@@ -177,7 +180,7 @@
     "attributes": ["hover"],
     "layer0.texture": "{{iconPath}}{{iconPathGroup}}{{icons.closeIcon}}",
     "layer0.tint": {{closeIconSettings.tabs.active.hoverColor}},
-    "layer0.opacity": 1.0,
+    "layer0.opacity": 1.0
   },
   // {
   //   // Tab dirty button active
@@ -199,32 +202,14 @@
     "class": "tab_close_button",
     "settings": ["!show_tab_close_buttons", "highlight_modified_tabs"],
     "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-    "content_margin": [8, 8],
+    "content_margin": [8, 8]
   },
 
   // SMALL TABS
   {
     "class": "tabset_control",
     "settings": ["itg_small_tabs"],
-    "tab_height": 32,
-  },
-  // SQUARE TABS
-  {
-    "class": "tabset_control",
-    "settings": ["itg_square_tabs"],
-    "layer0.texture": "",
-    "content_margin": [0, 0, 0, 0],
-    // "tab_overlap": 5
-  },
-  {
-    "class": "tab_control",
-    "settings": ["itg_square_tabs"],
-    // Inactive tab settings
-    "layer0.texture": "{{iconPath}}{{iconPathGroup}}tab-inactive.png",
-    // Active tab setting
-    "layer1.texture": "{{iconPath}}{{iconPathGroup}}tab-active.png",
-    // Hover tab setting
-    "layer2.texture": "{{iconPath}}{{iconPathGroup}}tab-hover.png"
+    "tab_height": 32
   },
 
 //
@@ -244,12 +229,12 @@
   {
     "class": "fold_button_control",
     "attributes": ["hover"],
-    "layer0.opacity": 1.0,
+    "layer0.opacity": 1.0
   },
   {
     "class": "fold_button_control",
     "attributes": ["pressed"],
-    "layer0.opacity": 1.0,
+    "layer0.opacity": 1.0
   },
   {
     "class": "fold_button_control",
@@ -370,14 +355,14 @@
     "class": "puck_control",
     "settings": ["overlay_scroll_bars"],
     "attributes": ["dark"],
-    "layer0.tint": {{scrollbars.darkContentColor}},
+    "layer0.tint": {{scrollbars.darkContentColor}}
   },
   // Overlay light horizontal puck (for dark content)
   {
     "class": "puck_control",
     "settings": ["overlay_scroll_bars"],
     "attributes": ["horizontal", "dark"],
-    "layer0.tint": {{scrollbars.darkContentColor}},
+    "layer0.tint": {{scrollbars.darkContentColor}}
   },
 
 //
@@ -590,7 +575,7 @@
     "color": {{sidebarSettings.hover.textColor}},
     "layer0.tint": {{sidebarSettings.hover.backgroundColor}},
     "layer0.opacity": 1.0,
-    "attributes": ["hover"],
+    "attributes": ["hover"]
   },
 
   // :: SELECTED
@@ -599,7 +584,7 @@
     "class": "tree_row",
     "layer0.tint": {{sidebarSettings.selected.backgroundColor}},
     "layer0.opacity": 1.0,
-    "attributes": ["selected"],
+    "attributes": ["selected"]
   },
   // Sidebar entry selected
   {
@@ -633,7 +618,7 @@
     "class": "close_button",
     "parents": [{"class": "tree_row", "attributes": ["hover"]}],
     "layer0.opacity": {{closeIconSettings.sidebar.hover.defaultOpacity}},
-    "layer0.tint": {{closeIconSettings.sidebar.hover.color}},
+    "layer0.tint": {{closeIconSettings.sidebar.hover.color}}
   },
 
   // > ROW :: HOVER
@@ -643,7 +628,7 @@
     "parents": [{"class": "tree_row", "attributes": ["hover"]}],
     "attributes": ["hover"],
     "layer0.tint": {{closeIconSettings.sidebar.hover.hoverColor}},
-    "layer0.opacity": {{closeIconSettings.sidebar.hover.hoverOpacity}},
+    "layer0.opacity": {{closeIconSettings.sidebar.hover.hoverOpacity}}
   },
 
   // > ROW :: SELECTED
@@ -652,7 +637,7 @@
     "class": "close_button",
     "parents": [{"class": "tree_row", "attributes": ["selected"]}],
     "layer0.tint": {{closeIconSettings.sidebar.selected.color}},
-    "layer0.opacity": {{closeIconSettings.sidebar.selected.defaultOpacity}},
+    "layer0.opacity": {{closeIconSettings.sidebar.selected.defaultOpacity}}
   },
 
   // > ROW :: SELECTED :: HOVER
@@ -662,7 +647,7 @@
     "parents": [{"class": "tree_row", "attributes": ["hover", "selected"]}],
     "attributes": ["hover"],
     "layer0.tint": {{closeIconSettings.sidebar.selected.color}},
-    "layer0.opacity": {{closeIconSettings.sidebar.selected.hoverOpacity}},
+    "layer0.opacity": {{closeIconSettings.sidebar.selected.hoverOpacity}}
   },
   // Sidebar file dirty
   {
@@ -670,7 +655,7 @@
     "attributes": ["dirty"],
     "layer0.texture": "{{iconPath}}{{iconPathGroup}}{{icons.dirtyIcon}}",
     "layer0.tint": {{closeIconSettings.sidebar.deselected.dirtyColor}},
-    "layer0.opacity": 1.0,
+    "layer0.opacity": 1.0
   },
   {
     "class": "close_button",
@@ -678,27 +663,27 @@
     "parents": [{"class": "tree_row", "attributes": ["selected"]}],
     "layer0.texture": "{{iconPath}}{{iconPathGroup}}{{icons.dirtyIcon}}",
     "layer0.tint": {{closeIconSettings.sidebar.selected.dirtyColor}},
-    "layer0.opacity": {{closeIconSettings.sidebar.selected.hoverOpacity}},
+    "layer0.opacity": {{closeIconSettings.sidebar.selected.hoverOpacity}}
   },
 
   {
     "class": "close_button",
     "attributes": ["dirty"],
     "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-    "layer0.texture": "{{iconPath}}{{iconPathGroup}}{{icons.closeIcon}}",
+    "layer0.texture": "{{iconPath}}{{iconPathGroup}}{{icons.closeIcon}}"
   },
   {
     "class": "close_button",
     "attributes": ["hover", "dirty"],
     "parents": [{"class": "tree_row", "attributes": ["hover"]}],
     "layer0.texture": "{{iconPath}}{{iconPathGroup}}{{icons.closeIcon}}",
-    "layer0.tint": {{closeIconSettings.sidebar.hover.hoverColor}},
+    "layer0.tint": {{closeIconSettings.sidebar.hover.hoverColor}}
   },
   {
     "class": "close_button",
     "attributes": ["dirty", "hover"],
     "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-    "layer0.tint": {{closeIconSettings.sidebar.selected.hoverColor}},
+    "layer0.tint": {{closeIconSettings.sidebar.selected.hoverColor}}
   },
 
   //
@@ -720,7 +705,7 @@
   // :: CLOSED :: HOVER
   {
     "class": "disclosure_button_control",
-    "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+    "parents": [{"class": "tree_row", "attributes": ["hover"]}]
   },
 
   //
@@ -736,7 +721,7 @@
   {
     "class": "disclosure_button_control",
     "attributes": ["expanded"],
-    "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+    "parents": [{"class": "tree_row", "attributes": ["hover"]}]
   },
 
   //
@@ -751,7 +736,7 @@
   {
     "class": "disclosure_button_control",
     "attributes": ["expanded"],
-    "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+    "parents": [{"class": "tree_row", "attributes": ["selected"]}]
   },
 
 
@@ -778,7 +763,7 @@
     // Pressed button state
     "class": "button_control",
     "attributes": ["hover"],
-    "layer0.tint": {{sidebarSettings.hover.backgroundColor}},
+    "layer0.tint": {{sidebarSettings.hover.backgroundColor}}
   },
   {
     // Pressed button state
@@ -820,7 +805,7 @@
     "layer0.texture": "",
     "layer0.tint": {{panelBackground}},
     "layer0.inner_margin": [2, 2, 2, 5],
-    "layer0.opacity": 1.0,
+    "layer0.opacity": 1.0
   },
   // Quick panel background
   {
@@ -863,7 +848,7 @@
     "class": "quick_panel_row",
     "attributes": ["selected"],
     "layer0.texture": "",
-    "layer0.tint": {{panelSelectedBackground}},
+    "layer0.tint": {{panelSelectedBackground}}
   },
   {
     "class": "quick_panel_label",
@@ -900,7 +885,7 @@
     "class": "mini_quick_panel_row",
     "attributes": ["selected"],
     "layer0.texture": "",
-    "layer0.tint": {{primaryColor}},
+    "layer0.tint": {{primaryColor}}
   },
 
 //
@@ -961,13 +946,13 @@
     "class": "icon_button_control",
     "attributes": ["hover"],
     "layer0.texture": "",
-    "layer0.tint": {{sidebarSettings.hover.backgroundColor}},
+    "layer0.tint": {{sidebarSettings.hover.backgroundColor}}
   },
   // :: HOVER :: SELECTED
   {
     "class": "icon_button_control",
     "attributes": ["selected", "hover"],
-    "layer0.tint": {{sidebarSettings.selected.backgroundColor}},
+    "layer0.tint": {{sidebarSettings.selected.backgroundColor}}
   },
   // :: SELECTED
   {
