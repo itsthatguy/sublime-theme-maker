@@ -1,9 +1,8 @@
-
-[
 //
 // TABS
 //
-  // Tab set
+// Tab set
+[
   {
     "class": "tabset_control",
     "layer0.texture": "",
@@ -400,7 +399,7 @@
   // General labels
   {
     "class": "label_control",
-    "color": [201, 202, 203],
+    // "color": [201, 202, 203],
     "shadow_color": [201, 202, 203],
     "shadow_offset": [0, 0],
     "font.bold" : true,
@@ -424,7 +423,7 @@
   {
     "class": "label_control",
     "parents": [{"class": "status_bar"}],
-    "color": {{tabSettings.inactive.textColor}},
+    // "color": {{tabSettings.inactive.textColor}},
     "shadow_color": [200, 200, 200],
     "shadow_offset": [0, 0],
     "font.bold" : false
@@ -444,8 +443,8 @@
   },
   // Tooltip content
   {
-    "class": "tool_tip_label_control",
-    "color": {{panelSelectedTextColor}}
+    "class": "tool_tip_label_control"
+    // "color": {{panelSelectedTextColor}}
   },
 
 //
@@ -524,7 +523,7 @@
   // SIDEBARSETTINGS
   {
     "class": "sidebar_heading",
-    "color": {{sidebarSettings.headingTextColor}},
+    // "color": {{sidebarSettings.headingTextColor}},
     "font.bold": true,
     "shadow_color": [148, 149, 151],
     "shadow_offset": [0, 0]
@@ -542,14 +541,14 @@
   // Sidebar entry
   {
     "class": "sidebar_label",
-    "color": {{sidebarSettings.deselected.textColor}},
+    // "color": {{sidebarSettings.deselected.textColor}},
     "shadow_offset": [0, 0]
   },
   // Sidebar folder entry
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-    "color": {{sidebarSettings.deselected.folderTextColor}},
+    // "color": {{sidebarSettings.deselected.folderTextColor}},
     "shadow_color": [0, 0, 0],
     "shadow_offset": [0, 0]
   },
@@ -557,8 +556,8 @@
   // closed
   {
     "class": "sidebar_label",
-    "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-    "color": {{sidebarSettings.deselected.textHoverColor}}
+    "parents": [{"class": "tree_row", "attributes": ["hover"]}]
+    // "color": {{sidebarSettings.deselected.textHoverColor}}
   },
   // open
   {
@@ -572,7 +571,7 @@
   // Sidebar row selected
   {
     "class": "tree_row",
-    "color": {{sidebarSettings.hover.textColor}},
+    // "color": {{sidebarSettings.hover.textColor}},
     "layer0.tint": {{sidebarSettings.hover.backgroundColor}},
     "layer0.opacity": 1.0,
     "attributes": ["hover"]
@@ -590,7 +589,7 @@
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-    "color": {{sidebarSettings.selected.textColor}},
+    // "color": {{sidebarSettings.selected.textColor}},
     "shadow_color": [0, 0, 0],
     "shadow_offset": [0, 0]
   },
@@ -751,7 +750,7 @@
     "content_margin": [4, 6, 4, 5],
     "min_size": [69, 0],
     // Default button state
-    "color": [0,0,0],
+    // "color": [0,0,0],
     "layer0.texture": "",
     "layer0.tint": {{sidebarBackground}},
     "layer0.opacity": 1.0,
@@ -773,13 +772,13 @@
   },
   {
     "class": "label_control",
-    "parents": [{"class": "button_control"}],
-    "color": {{sidebarSettings.deselected.textColor}}
+    "parents": [{"class": "button_control"}]
+    // "color": {{sidebarSettings.deselected.textColor}}
   },
   {
     "class": "label_control",
-    "parents": [{"class": "button_control", "attributes": ["pressed", "hover"]}],
-    "color": {{sidebarSettings.selected.textColor}}
+    "parents": [{"class": "button_control", "attributes": ["pressed", "hover"]}]
+    // "color": {{sidebarSettings.selected.textColor}}
   },
 //
 // TEXT INPUT FIELD
