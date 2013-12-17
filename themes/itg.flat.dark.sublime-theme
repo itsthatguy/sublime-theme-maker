@@ -571,7 +571,6 @@
   // Sidebar row selected
   {
     "class": "tree_row",
-    "color": [255, 255, 255, 200],
     "layer0.tint": [0, 0, 0, 30],
     "layer0.opacity": 1.0,
     "attributes": ["hover"]
