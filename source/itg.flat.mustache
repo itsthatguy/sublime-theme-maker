@@ -399,7 +399,7 @@
   // General labels
   {
     "class": "label_control",
-    // "color": [201, 202, 203],
+    "color": [201, 202, 203],
     "shadow_color": [201, 202, 203],
     "shadow_offset": [0, 0],
     "font.bold" : true,
@@ -443,8 +443,8 @@
   },
   // Tooltip content
   {
-    "class": "tool_tip_label_control"
-    // "color": {{panelSelectedTextColor}}
+    "class": "tool_tip_label_control",
+    "color": {{panelSelectedTextColor}}
   },
 
 //
@@ -548,7 +548,7 @@
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-    // "color": {{sidebarSettings.deselected.folderTextColor}},
+    "color": {{sidebarSettings.deselected.folderTextColor}},
     "shadow_color": [0, 0, 0],
     "shadow_offset": [0, 0]
   },
@@ -556,8 +556,8 @@
   // closed
   {
     "class": "sidebar_label",
-    "parents": [{"class": "tree_row", "attributes": ["hover"]}]
-    // "color": {{sidebarSettings.deselected.textHoverColor}}
+    "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+    "color": {{sidebarSettings.deselected.textHoverColor}}
   },
   // open
   {
@@ -571,7 +571,7 @@
   // Sidebar row selected
   {
     "class": "tree_row",
-    // "color": {{sidebarSettings.hover.textColor}},
+    "color": {{sidebarSettings.hover.textColor}},
     "layer0.tint": {{sidebarSettings.hover.backgroundColor}},
     "layer0.opacity": 1.0,
     "attributes": ["hover"]
@@ -589,7 +589,7 @@
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-    // "color": {{sidebarSettings.selected.textColor}},
+    "color": {{sidebarSettings.selected.textColor}},
     "shadow_color": [0, 0, 0],
     "shadow_offset": [0, 0]
   },
@@ -772,13 +772,13 @@
   },
   {
     "class": "label_control",
-    "parents": [{"class": "button_control"}]
-    // "color": {{sidebarSettings.deselected.textColor}}
+    "parents": [{"class": "button_control"}],
+    "color": {{sidebarSettings.deselected.textColor}}
   },
   {
     "class": "label_control",
-    "parents": [{"class": "button_control", "attributes": ["pressed", "hover"]}]
-    // "color": {{sidebarSettings.selected.textColor}}
+    "parents": [{"class": "button_control", "attributes": ["pressed", "hover"]}],
+    "color": {{sidebarSettings.selected.textColor}}
   },
 //
 // TEXT INPUT FIELD
