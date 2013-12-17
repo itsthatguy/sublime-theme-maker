@@ -444,7 +444,7 @@
   // Tooltip content
   {
     "class": "tool_tip_label_control",
-    "color": [212, 205, 202, 255]
+    "color": [255, 255, 255, 200]
   },
 
 //
