@@ -1,0 +1,136 @@
+
+---
+# GENERIC COLORS
+red: &RED [243, 86, 86]
+# lightRed: [252, 174, 174]
+yellow: &YELLOW [240, 200, 80, 255]
+darkYellow: &DARK_YELLOW [205,135,0]
+dark: &DARK [91, 84, 81, 255]
+white: &WHITE [255, 255, 255, 200]
+lightWhite: &LIGHT_WHITE [180, 180, 180]
+primaryDark: &PRIMARY_DARK [65, 69, 78]
+primaryColor: &PRIMARY_COLOR [114, 192, 93, 255]
+lightPrimaryColor: &LIGHT_PRIMARY_COLOR [215, 247, 207]
+
+# GENERAL
+iconPath: "Theme - itg.flat/assets/"
+iconPathGroup: ""
+
+inputColor: [230, 230, 230]
+
+# TABS
+tabsetBackground: *PRIMARY_DARK
+tabSettings:
+  inactive:
+    textColor: *WHITE
+    backgroundColor: *PRIMARY_DARK
+    textBold: false
+  active:
+    textColor: *DARK
+    backgroundColor: *WHITE
+    textBold: false
+  hover:
+    textColor: *DARK
+    backgroundColor: [255, 255, 255, 180]
+    textBold: false
+
+tabCloseIcon: "close.png"
+
+# SIDEBAR
+sidebarBackground: *PRIMARY_DARK
+sidebarSettings:
+  headingTextColor: *WHITE
+  hover:
+    backgroundColor: [0,0,0,30]
+    textColor: *WHITE
+  selected:
+    backgroundColor: *PRIMARY_COLOR
+    textColor: *WHITE
+    textHoverColor: *WHITE
+    folderTextColor: *WHITE
+  deselected:
+    backgroundColor: *PRIMARY_DARK
+    textColor: *WHITE
+    textHoverColor: *WHITE
+    folderTextColor: *WHITE
+
+#
+# CLOSE ICONS
+closeIconSettings:
+  # TABS
+  tabs:
+    inactive:
+      color: *WHITE
+      hoverColor: *DARK
+      dirtyColor: *YELLOW
+      defaultOpacity: 0.3
+      hoverOpacity: 0.6
+    active:
+      color: *DARK
+      hoverColor: *RED
+      dirtyColor: *DARK_YELLOW
+      defaultOpacity: 0.4
+      hoverOpacity: 0.6
+    hover:
+      hoverColor: *RED
+      dirtyColor: *DARK_YELLOW
+      hoverOpacity: 1.0
+
+  # CLOSE ICONS - SIDEBAR
+  sidebar:
+    selected:
+      color: *WHITE
+      hoverColor: *WHITE
+      dirtyColor: *YELLOW
+      defaultOpacity: 0.6
+      hoverOpacity: 1.0
+    deselected:
+      color: *DARK
+      hoverColor: *WHITE
+      dirtyColor: *YELLOW
+      defaultOpacity: 0.0
+      hoverOpacity: 0.0
+    hover:
+      color: *WHITE
+      hoverColor: *RED
+      defaultOpacity: 0.4
+      hoverOpacity: 1.0
+
+
+#
+# PANEL
+panelBackground: *PRIMARY_DARK
+panelSelectedBackground: *PRIMARY_COLOR
+panelTextColor: *LIGHT_WHITE
+panelMatchTextColor: *WHITE
+panelSelectedTextColor: *LIGHT_PRIMARY_COLOR
+panelSelectedMatchTextColor: *WHITE
+
+#
+# ICONS
+icons:
+  sidebarGroupOpen: "group-open.png"
+  sidebarGroupClosed: "group-closed.png"
+  closeIcon: "close.png"
+  dirtyIcon: "file-dirty.png"
+  panelBufferIcon: "icon-buffer.png"
+  panelCaseIcon: "icon-case.png"
+  panelContextIcon: "icon-context.png"
+  panelHighlightIcon: "icon-highlight.png"
+  panelPreserveIcon: "icon-preserve.png"
+  panelRegexIcon:  "icon-regex.png"
+  panelReverseIcon: "icon-reverse.png"
+  panelSelectedIcon: "icon-selection.png"
+  panelWordIcon: "icon-word.png"
+  panelWrapIcon: "icon-wrap.png"
+
+
+#
+# ICONS
+scrollbars:
+  darkContentColor: *WHITE
+  lightContentColor: *WHITE
+
+# MINIMAP
+minimapBackground: [65, 69, 78, 165]
+---
