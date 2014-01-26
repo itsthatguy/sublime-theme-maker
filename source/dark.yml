@@ -3,6 +3,7 @@
 # GENERIC COLORS
 # red: [243, 86, 86]
 # lightRed: [252, 174, 174]
+black: &BLACK [39, 42, 50]
 yellow: &YELLOW [254, 209, 0, 255]
 darkYellow: &DARK_YELLOW [205,135,0]
 dark: &DARK [91, 84, 81, 255]
@@ -17,6 +18,8 @@ iconPath: "Theme - itg.flat/assets/"
 iconPathGroup: ""
 
 inputColor: [230, 230, 230]
+
+emptyBackground: *BLACK
 
 # TABS
 tabsetBackground: *PRIMARY_DARK
