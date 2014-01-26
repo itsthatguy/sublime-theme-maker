@@ -17,6 +17,8 @@ lightPrimaryColor: &LIGHT_PRIMARY_COLOR [190, 168, 168]
 iconPath: "Theme - itg.flat/assets/"
 iconPathGroup: ""
 
+inputColor: [230, 230, 230]
+
 # TABS
 tabsetBackground: *LIGHT
 tabSettings:

@@ -1,16 +1,16 @@
 
 ---
 # GENERIC COLORS
-# red: [243, 86, 86]
+red: &RED [243, 86, 86]
 # lightRed: [252, 174, 174]
-yellow: &YELLOW [254, 209, 0, 255]
+yellow: &YELLOW [240, 200, 80, 255]
 darkYellow: &DARK_YELLOW [205,135,0]
 dark: &DARK [91, 84, 81, 255]
 white: &WHITE [255, 255, 255, 200]
 lightWhite: &LIGHT_WHITE [180, 180, 180]
 primaryDark: &PRIMARY_DARK [65, 69, 78]
-primaryColor: &PRIMARY_COLOR [243, 86, 86]
-lightPrimaryColor: &LIGHT_PRIMARY_COLOR [252, 174, 174]
+primaryColor: &PRIMARY_COLOR [240, 200, 80, 255]
+lightPrimaryColor: &LIGHT_PRIMARY_COLOR [245, 226, 160]
 
 # GENERAL
 iconPath: "Theme - itg.flat/assets/"
@@ -67,16 +67,16 @@ closeIconSettings:
       hoverOpacity: 0.6
     active:
       color: *DARK
-      hoverColor: *PRIMARY_COLOR
+      hoverColor: *RED
       dirtyColor: *DARK_YELLOW
       defaultOpacity: 0.4
       hoverOpacity: 0.6
     hover:
-      hoverColor: *PRIMARY_COLOR
+      hoverColor: *RED
       dirtyColor: *DARK_YELLOW
       hoverOpacity: 1.0
 
-  # SIDEBAR
+  # CLOSE ICONS - SIDEBAR
   sidebar:
     selected:
       color: *WHITE
@@ -92,7 +92,7 @@ closeIconSettings:
       hoverOpacity: 0.0
     hover:
       color: *WHITE
-      hoverColor: *PRIMARY_COLOR
+      hoverColor: *RED
       defaultOpacity: 0.4
       hoverOpacity: 1.0
 
