@@ -19,6 +19,8 @@ iconPathGroup: ""
 
 inputColor: [230, 230, 230]
 
+emptyBackground: [168, 159, 155, 255]
+
 # TABS
 tabsetBackground: *LIGHT
 tabSettings:
