@@ -16,8 +16,7 @@
     "tab_width": 160,
     "tab_min_width": 48,
     "tab_height": 48,
-    "mouse_wheel_switch": false,
-    "row_padding": [8, 4]
+    "mouse_wheel_switch": false
   },
   {
     "class": "tabset_control",
@@ -271,7 +270,7 @@
     "class": "scroll_corner_control",
     "layer0.texture": "",
     "layer0.tint": [65, 69, 78],
-    "layer0.opacity": 1.0,
+    "layer0.opacity": 0.0,
     "layer0.inner_margin": [0, 0]
   },
   // Standard vertical scroll puck
