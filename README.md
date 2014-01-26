@@ -5,8 +5,14 @@
 * run with `bundle exec guard`
 
 * Create a symbolic link to use with your Sublime text packages folder
-  * Sublime Text 2: `ln -s $HOME/git/sublime-theme-maker/themes $HOME/Library/Application\ Support/Sublime\ Text\ 2/Packages/; mv themes Theme\ -\ itg`
-  * Sublime Text 3: `ln -s $HOME/git/sublime-theme-maker/themes $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/; mv themes Theme\ -\ itg`
+
+```
+# Sublime Text 2:
+export PATH_TO_REPO="${HOME}/git/sublime-theme-maker"; ln -s ${PATH_TO_REPO}/themes/ $HOME/Library/Application\ Support/Sublime\ Text\ 2/Packages/Theme\ -\ itg.flat
+
+# Sublime Text 3:
+export PATH_TO_REPO="${HOME}/git/sublime-theme-maker"; ln -s ${PATH_TO_REPO}/themes/ $HOME/Library/Application\ Support/Sublime\ Text\ 3/Packages/Theme\ -\ itg.flat
+```
 
 ## Explain-a-nator
 
