@@ -211,6 +211,15 @@
     "tab_height": 32
   },
 
+  // XSMALL TABS
+  {
+    "class": "tabset_control",
+    "settings": ["itg_xsmall_tabs"],
+    "tab_height": 24,
+    "tab_width": 80,
+    "tab_min_width": 36
+  },
+
 //
 // FOLD BUTTONS
 //
@@ -370,7 +379,7 @@
 
   {
     "class": "sheet_container_control",
-    "layer0.tint": [65, 69, 78],
+    "layer0.tint": [39, 42, 50],
     "layer0.opacity": 1.0
   },
 
@@ -852,14 +861,14 @@
     "class": "quick_panel_label",
     "fg": [180, 180, 180],
     "match_fg": [255, 255, 255, 200],
-    "selected_fg": [197, 240, 235],
+    "selected_fg": [215, 247, 207],
     "selected_match_fg": [255, 255, 255, 200]
   },
   {
     "class": "quick_panel_path_label",
     "fg": [180, 180, 180],
     "match_fg": [255, 255, 255, 200],
-    "selected_fg": [197, 240, 235],
+    "selected_fg": [215, 247, 207],
     "selected_match_fg": [255, 255, 255, 200]
   },
   {
@@ -908,7 +917,7 @@
     // text
     "fg": [180, 180, 180],
     "match_fg": [255, 255, 255, 200],
-    "selected_fg": [197, 240, 235],
+    "selected_fg": [215, 247, 207],
     "selected_match_fg": [255, 255, 255, 200]
   },
   {
