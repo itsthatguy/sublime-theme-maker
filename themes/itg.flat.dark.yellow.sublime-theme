@@ -260,8 +260,8 @@
     "class": "scroll_bar_control",
     "attributes": ["horizontal"],
     "layer0.texture": "",
-    "layer0.tint": [65, 69, 78],
     "layer0.opacity": 1.0,
+    "layer0.tint": [65, 69, 78],
     "layer0.inner_margin": [6, 0],
     "blur": false
   },
@@ -293,6 +293,36 @@
     "layer0.inner_margin": [4, 2],
     "content_margin": [12, 2],
     "blur": false
+  },
+
+  // SCROLLBAR SETTINGS
+  {
+    "class": "puck_control",
+    "settings": ["itg_scrollbar_medium"],
+    "layer0.texture": "Theme - itg.flat/assets/standard-puck-vertical-medium.png",
+    "layer0.inner_margin": [2, 8],
+    "content_margin": [4, 12]
+  },
+  {
+    "class": "puck_control",
+    "settings": ["itg_scrollbar_medium"],
+    "attributes": ["horizontal"],
+    "layer0.texture": "Theme - itg.flat/assets/standard-puck-horizontal-medium.png",
+    "layer0.inner_margin": [8, 2],
+    "content_margin": [12, 4]
+  },
+  {
+    "class": "puck_control",
+    "settings": ["itg_scrollbar_small"],
+    "layer0.inner_margin": [2, 4],
+    "content_margin": [2, 12]
+  },
+  {
+    "class": "puck_control",
+    "settings": ["itg_scrollbar_small"],
+    "attributes": ["horizontal"],
+    "layer0.inner_margin": [4, 2],
+    "content_margin": [12, 2],
   },
 
 //
@@ -381,7 +411,7 @@
   {
     "class": "grid_layout_control",
     "border_size": 1,
-    "border_color": [65, 69, 78],
+    "border_color": [65, 69, 78]
   },
 
 //
